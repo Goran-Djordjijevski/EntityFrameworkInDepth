@@ -19,5 +19,7 @@ namespace CodeFirstPlutoApp.Models
         public DbSet<Author> Authors { get; set; }
 
         public DbSet<Tag> Tags { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }
